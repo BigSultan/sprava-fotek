@@ -1,0 +1,2 @@
+# sprava-fotek
+Nahravani fotek
