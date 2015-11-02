@@ -1,0 +1,2 @@
+CREATE DATABASE `fotogalerie` DEFAULT CHARACTER SET utf8 COLLATE utf8_czech_ci;
+CREATE TABLE `fotogalerie`.`fotky` ( `id_fotky` INT NOT NULL AUTO_INCREMENT , `miniatura` VARCHAR(80) NULL DEFAULT NULL , `plna` VARCHAR(80) NULL DEFAULT NULL , `zobrazit` INT NOT NULL , PRIMARY KEY (`id_fotky`)) ENGINE = InnoDB;
